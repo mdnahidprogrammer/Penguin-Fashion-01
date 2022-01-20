@@ -20,11 +20,15 @@
 <body>
 
     <header>
-        <section style="background-color: #FFFBF0; height: 715px;">
+        <section style="background-color: #FFFBF0;">
+            
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container">
                     <a class="navbar-brand" href="#"><img width="291px" src="img/logo.png" alt=""></a>
-                    <div class="collapse navbar-collapse">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav d-flex align-items-center ms-auto">
                             <li class="nav-item ps-4"><a class="nav-link fs-5"
                                     style="color: #3C3C3C; font-family: 'Roboto', sans-serif;" href="#">About us</a>
@@ -44,8 +48,8 @@
                 </div>
             </nav>
 
-            <div class="container mx-auto my-5">
-                <div class="row gy-5">
+            <div class="container py-5">
+                <div class="row gy-5 pb-5">
                     <div class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center">
                         <h1 style="font-family: 'Bebas Neue', cursive; font-size: 80px;"><span
                                 style="color: #FABE4C;">Be the Penguins</span><br> of Winter</h1>
@@ -59,11 +63,13 @@
                                 style="font-family: 'Roboto', sans-serif; font-weight: 500;">Buy Now</span>
                         </button>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center">
-                        <img style="width: 441px;" src="img/model.png" alt="">
+
+                    <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center">
+                        <img class="img-fluid" style="width: 441px;" src="img/model.png" alt="">
                     </div>
                 </div>
             </div>
+
         </section>
     </header>
 
@@ -72,9 +78,9 @@
 
     <main>
         <section>
-            <div class="container" style="margin-top: 100px;">
+            <div class="container mx-auto" style="margin-top: 100px;">
                 <h2 class="fs-1 mb-5" style="font-family: 'Bebas Neue', cursive;">Woman Jacket</h2>
-                <div class="row gy-5 d-flex justify-content-between">
+                <div class="row gy-5 d-flex align-items-center justify-content-between">
 
                     <div class="card col-12 col-md-6 col-lg-4 py-3"
                         style="border: 1px solid #FFFFFF; box-shadow: -1px 4px 20px 2px #5d5d5d17; border-radius: 20px; width: 370px;">
@@ -294,7 +300,7 @@
                     </div>
 
                     <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center">
-                        <img style="width: 599px;" src="img/shopping.png" alt="">
+                        <img class="img-fluid" style="width: 599px;" src="img/shopping.png" alt="">
                     </div>
                 </div>
             </div>
